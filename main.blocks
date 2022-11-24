@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="g3#(e0F:x1YGay0|aa*,">スプライト</variable></variables><block type="device_forever" id="M^=sN!e_Y*v#xxG5(.s5" x="190" y="-43"></block><block type="device_gesture_event" id="$vdqaSmFhh?9_~(@Ta_D" x="0" y="0"><field name="NAME">Gesture.TiltRight</field><statement name="HANDLER"><block type="device_show_leds" id="HdyjCu[=$76Y7L.J_0J;"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . # # # # 
+        . # . # . 
+        . # . . .
+        `</field></block></statement></block><block type="device_gesture_event" id=".1zQs{niF]f/DgvPL]if" x="-287" y="37"><field name="NAME">Gesture.TiltLeft</field><statement name="HANDLER"><block type="device_show_leds" id="#ik70Ylt+/^^IuKGj.=="><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        # # # # . 
+        . # . # . 
+        . . . # .
+        `</field></block></statement></block><block type="pxt-on-start" id=":9Dej_^e3~-rSf_+4zY#" x="334" y="41"><statement name="HANDLER"><block type="device_print_message" id="/soY~:?{LBWX]},XIFa]"><value name="text"><shadow type="text" id="|!58l[9=R.Ci9XfAg|^M"><field name="TEXT">micro:cart</field></shadow></value></block></statement></block><block type="device_button_event" id="q]vkhM-Uq8^QyO[oN)1P" x="53" y="275"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="/N/ddCF#v2{th2l1FNDq"><field name="LEDS">`
+        . # # # . 
+        . . . # . 
+        . # # # . 
+        . . . # . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="os|JG=*uwb{T%z]sCkZ0"><field name="LEDS">`
+        . # # # . 
+        . . . # . 
+        . # # # . 
+        . # . . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="#hR?{b;?UYGd7nzPeq]2"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_print_message" id=")}D=NDI|#(5@^0O*Oa2|"><value name="text"><shadow type="text" id="UqHtzIKQu7ps#5gIp$q,"><field name="TEXT">GO</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
